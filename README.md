@@ -1,17 +1,5 @@
 # 🏭 Smart Warehouse Inventory Management
 
-<div align="center">
-Show Image
-Show Image
-Show Image
-Show Image
-Show Image
-Show Image
-An AI-Powered, Real-Time Inventory Monitoring & Optimization Platform
-Forecast demand. Eliminate stockouts. Optimize replenishment. All in one dashboard.
-Features • Demo • Architecture • Setup • Usage • Results • Roadmap
-</div>
-## 🚀 Why This Project Exists
 
 Modern warehouses bleed money in two ways:
 - **Stockouts** → lost sales, unhappy customers, broken trust.
@@ -288,6 +276,7 @@ Contributions, issues, and feature requests are welcome!
 ## 👤 Author
 
 Sindhu Katakam
+
 Smart Warehouse Inventory Management — RL & AI/ML Project
 
 ---
