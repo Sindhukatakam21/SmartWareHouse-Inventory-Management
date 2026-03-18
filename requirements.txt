@@ -1,0 +1,54 @@
+# ============================================================
+# Smart Warehouse Inventory Management
+# Python 3.8+ | pip install -r requirements.txt
+# ============================================================
+
+# ── Core Data & Numerics ────────────────────────────────────
+numpy>=1.23.0
+pandas>=1.5.0
+openpyxl>=3.1.0          # For reading .xlsx files (UCI Retail II, M5 data)
+xlrd>=2.0.1              # Legacy Excel support
+
+# ── Machine Learning ────────────────────────────────────────
+scikit-learn>=1.2.0      # Forecasting models, CV, grid search, scaling
+joblib>=1.2.0            # Model serialization / persistence
+
+# ── Deep Reinforcement Learning (DQN Policy) ────────────────
+torch>=2.0.0             # PyTorch for DQN training
+# tensorflow>=2.12.0     # Uncomment if using TF-based DQN instead
+
+# ── Dashboard & Visualization ───────────────────────────────
+streamlit>=1.28.0        # Dashboard framework
+plotly>=5.15.0           # Interactive charts (Plotly Express + Graph Objects)
+matplotlib>=3.7.0        # Static plots and model insight charts
+seaborn>=0.12.0          # Statistical visualization helpers
+
+# ── Time Series & Forecasting Utilities ─────────────────────
+statsmodels>=0.14.0      # ARIMA, seasonal decomposition, statistical tests
+scipy>=1.10.0            # Scientific computing, signal processing
+
+# ── Data Sources & API Connectors ───────────────────────────
+fredapi>=0.5.0           # FRED Economic Data API
+pytrends>=4.9.0          # Google Trends API
+requests>=2.31.0         # HTTP requests for data fetching
+python-dateutil>=2.8.2   # Robust date parsing
+
+# ── Feature Engineering Utilities ───────────────────────────
+holidays>=0.35           # Public holidays dataset integration
+
+# ── File & IO Utilities ─────────────────────────────────────
+tqdm>=4.65.0             # Progress bars for long ETL jobs
+pyyaml>=6.0              # Config file handling
+python-dotenv>=1.0.0     # Environment variable management
+
+# ── Notebook / Dev Environment ──────────────────────────────
+jupyter>=1.0.0           # Jupyter notebooks
+ipykernel>=6.23.0        # Kernel for Colab / local notebooks
+ipywidgets>=8.0.0        # Interactive widgets in notebooks
+
+# ── Deployment & Sharing (Optional) ────────────────────────
+# pyngrok>=7.0.0         # Uncomment for ngrok tunnel during demos
+
+# ── Code Quality ────────────────────────────────────────────
+black>=23.0.0            # Code formatter
+flake8>=6.0.0            # Linter
